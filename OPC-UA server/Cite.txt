@@ -1,0 +1,11 @@
+Prosys OPC-UA (Simulator with UI)
+- Simulation Server
+    https://downloads.prosysopc.com/opc-ua-simulation-server-downloads.php
+- Browser
+    https://downloads.prosysopc.com/opc-ua-browser-downloads.php
+- Monitor
+    https://downloads.prosysopc.com/opc-ua-monitor-downloads.php
+
+Python Lib
+- Server
+    https://github.com/FreeOpcUa/python-opcua?tab=readme-ov-file

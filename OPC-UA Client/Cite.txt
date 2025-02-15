@@ -1,0 +1,7 @@
+SDK OPC-UA client
+- Client
+    https://www.unified-automation.com/products.html
+
+Python Lib
+- Client
+    https://github.com/FreeOpcUa/python-opcua?tab=readme-ov-file
