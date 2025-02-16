@@ -10,7 +10,7 @@ class SubHandler:
 if __name__ == "__main__":
 
     # connect to the created server -> server.set_endpoint("opc.tcp://localhost:4840/freeopcua/server/")
-    client = Client("opc.tcp://localhost:4840/freeopcua/server/")
+    client = Client("opc.tcp://localhost:4840/resync/server/")
     client.connect()
     print("Connected to OPC UA server")
 

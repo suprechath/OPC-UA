@@ -8,10 +8,10 @@ if __name__ == "__main__":
 
     # setup our server
     server = Server()
-    server.set_endpoint("opc.tcp://localhost:4840/freeopcua/server/")
+    server.set_endpoint("opc.tcp://localhost:4840/resync/server/")
 
     # setup our own namespace, not really necessary but should as spec
-    uri = "http://examples.freeopcua.github.io"
+    uri = "Resync"
     idx = server.register_namespace(uri)
 
     # get Objects node, this is where we should put our nodes
@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
             # print(f"Updated Machine1 -> Temp: {m1_temp.get_value()}°C, Pressure: {m1_pressure.get_value()} kPa, Speed: {m1_speed.get_value()} RPM")
             # print(f"Updated Machine2 -> Temp: {m2_temp.get_value()}°C, Pressure: {m2_pressure.get_value()} kPa, Speed: {m2_speed.get_value()} RPM")
-            time.sleep(15)
+            time.sleep(15) #Value will be changed every 15sec.
     except KeyboardInterrupt:
         server.stop()
         print("\nShutting down server...")
