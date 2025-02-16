@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
             # print(f"Updated Machine1 -> Temp: {m1_temp.get_value()}°C, Pressure: {m1_pressure.get_value()} kPa, Speed: {m1_speed.get_value()} RPM")
             # print(f"Updated Machine2 -> Temp: {m2_temp.get_value()}°C, Pressure: {m2_pressure.get_value()} kPa, Speed: {m2_speed.get_value()} RPM")
-            time.sleep(10)
+            time.sleep(15)
     except KeyboardInterrupt:
         server.stop()
         print("\nShutting down server...")
